@@ -1,0 +1,7 @@
+package-lock.json
+.git
+node_modules
+
+.compiled
+.history
+.vscode
