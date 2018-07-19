@@ -20,6 +20,7 @@ Steps to install and run locally:
   
 Development Mode
 
+    npm install webpack-dev-server -g
     cd Ants
     npm run start-dev
   
