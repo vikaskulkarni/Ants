@@ -7,7 +7,7 @@ React, Webpack, SASS
 Platform:
 NODE, NPM
 
-Running App (Demo):  (It will be slow the first time)
+Running App (Demo): Work in progress
 
 Steps to install and run locally:
 
@@ -23,10 +23,13 @@ The above step will create a dist folder. index.html can be run in any web serve
 Install http-server globally
 
 To Start Client
+
     npm i -g http-server
     cd Ants/client/dist
     http-server -p 65132
+    
 To Start Server
+
     cd Ants
     npm run start-server
   
