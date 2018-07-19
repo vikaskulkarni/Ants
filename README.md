@@ -7,7 +7,7 @@ React, Webpack, SASS
 Platform:
 NODE, NPM
 
-Running App (Demo):  (It will be slow the first time)
+Running App (Demo): Work in progress
 
 Steps to install and run locally:
 
@@ -17,23 +17,10 @@ Steps to install and run locally:
 
     cd Ants/client
     npm install
-    npm run build
-  
-The above step will create a dist folder. index.html can be run in any web server.
-Install http-server globally
-
-To Start Client
-    npm i -g http-server
-    cd Ants/client/dist
-    http-server -p 65132
-To Start Server
-    cd Ants
-    npm run start-server
-  
-Navigate to http://localhost:65132/. In this mode, the code changes are NOT automatically loaded. Make sure the underlying service layer is running on 3001 that serves the APIs
   
 Development Mode
 
+    npm install webpack-dev-server -g
     cd Ants
     npm run start-dev
   
@@ -66,3 +53,8 @@ Server (Ants/server)
     entities
 
         This contains the schemas for handling mongodb models
+        
+For Database, Mongo is used as a service through https://www.mlab.com/
+
+Wiki for REST end points:
+https://github.com/vikaskulkarni/Ants/wiki/REST-End-Points-for-Order,-Customer-and-Product-Management
