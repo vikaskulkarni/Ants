@@ -17,23 +17,6 @@ Steps to install and run locally:
 
     cd Ants/client
     npm install
-    npm run build
-  
-The above step will create a dist folder. index.html can be run in any web server.
-Install http-server globally
-
-To Start Client
-
-    npm i -g http-server
-    cd Ants/client/dist
-    http-server -p 65132
-    
-To Start Server
-
-    cd Ants
-    npm run start-server
-  
-Navigate to http://localhost:65132/. In this mode, the code changes are NOT automatically loaded. Make sure the underlying service layer is running on 3001 that serves the APIs
   
 Development Mode
 
