@@ -66,3 +66,8 @@ Server (Ants/server)
     entities
 
         This contains the schemas for handling mongodb models
+        
+For Database, Mongo is used as a service through https://www.mlab.com/
+
+Wiki for REST end points:
+https://github.com/vikaskulkarni/Ants/wiki/REST-End-Points-for-Order,-Customer-and-Product-Management
