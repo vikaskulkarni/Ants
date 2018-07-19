@@ -5,9 +5,9 @@ Libraries used:
 React, Webpack, SASS
 
 Platform:
-NODE, NPM
+NODE v8.6.0, NPM v5.3.0
 
-Running App (Demo): Work in progress
+Running App (Demo): http://ec2-184-73-148-247.compute-1.amazonaws.com:3001/ (It will be a bit slow the first time)
 
 Steps to install and run locally:
 
@@ -18,9 +18,17 @@ Steps to install and run locally:
     cd Ants/client
     npm install
   
+Production Mode
+    
+    cd Ants/client
+    npm run build
+    cd Ants
+    npm run start-server
+
+Navigate to http://localhost:3001/. Here node server is serving the client files as well.
+
 Development Mode
 
-    npm install webpack-dev-server -g
     cd Ants
     npm run start-dev
   
