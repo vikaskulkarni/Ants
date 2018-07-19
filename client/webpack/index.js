@@ -14,7 +14,7 @@ const settings = {
     vendor
   },
   output: {
-    filename: '[name].[hash].js',
+    filename: '[name].js',
     path: resolve(__dirname, '..', 'dist')
   },
   module: {
